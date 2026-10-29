@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Gojek On-Demand Super App",
+    "kategori": "Mobile",
+    "teknologi": "Flutter, Golang, React Native",
+    "tahun": "2015",
+    "tautan": "https://www.gojek.com"
+  },
+  {
+    "id": "2",
+    "judul": "Tokopedia E-Commerce Marketplace Platform",
+    "kategori": "Web",
+    "teknologi": "React, Golang, PostgreSQL",
+    "tahun": "2009",
+    "tautan": "https://www.tokopedia.com"
+  },
+  {
+    "id": "3",
+    "judul": "Redesign UI UX Aplikasi Traveloka",
+    "kategori": "Desain",
+    "teknologi": "Figma, Adobe XD, Prototyping",
+    "tahun": "2023",
+    "tautan": "https://www.traveloka.com"
+  },
+  {
+    "id": "4",
+    "judul": "Detektor Masker Wajah Real-Time",
+    "kategori": "Data",
+    "teknologi": "Python, OpenCV, TensorFlow",
+    "tahun": "2022",
+    "tautan": "https://github.com/example/mask-detector"
+  },
+  {
+    "id": "5",
+    "judul": "Portal Berita Daerah Digital",
+    "kategori": "Web",
+    "teknologi": "Next.js, Tailwind CSS",
+    "tahun": "2024",
+    "tautan": "https://github.com/example/news-portal"
+  },
+  {
+    "id": "6",
+    "judul": "Pelacak Keuangan Pribadi Harian",
+    "kategori": "Mobile",
+    "teknologi": "React Native, Express.js",
+    "tahun": "2023",
+    "tautan": "https://github.com/example/money-tracker"
+  },
+  {
+    "id": "7",
+    "judul": "Dasbor Pemantauan Cuaca Kota",
+    "kategori": "Web",
+    "teknologi": "HTML, CSS, OpenWeather API",
+    "tahun": "2023",
+    "tautan": "https://github.com/example/weather-dash"
+  },
+  {
+    "id": "8",
+    "judul": "Sistem Kasir Restoran Berbasis Awan",
+    "kategori": "Web",
+    "teknologi": "Laravel, Vue.js, MySQL",
+    "tahun": "2024",
+    "tautan": "https://github.com/example/cloud-pos"
+  },
+  {
+    "id": "9",
+    "judul": "Desain Antarmuka Sistem Layanan Kesehatan",
+    "kategori": "Desain",
+    "teknologi": "Figma, Design System, Wireframing",
+    "tahun": "2024",
+    "tautan": "https://github.com/example/health-ui-design"
+  },
+  {
+    "id": "10",
+    "judul": "Manajer Tugas Tim Kolaboratif",
+    "kategori": "Web",
+    "teknologi": "React, TypeScript, Supabase",
+    "tahun": "2025",
+    "tautan": "https://github.com/example/task-manager"
   }
 ]
