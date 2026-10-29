@@ -3,7 +3,7 @@ import { KoleksiContext } from './koleksiContext.js'
 import useLocalStorage from '../hooks/useLocalStorage.js'
 
 export function KoleksiProvider({ children }) {
-    const [items, setItems] = useLocalStorage('uts-paw-koleksi', null)
+    const [items, setItems] = useLocalStorage('uts-paw:k7', null)
     const [loading, setLoading] = useState(items === null)
     const [error, setError] = useState(null)
 
@@ -24,10 +24,10 @@ export function KoleksiProvider({ children }) {
     }, [items, setItems])
 
     const tambah = (item) => setItems((lama) => [...(lama ?? []), { ...item, id: String(Date.now()) }])
-    const hapus = (id) => setItems((lama) => lama.filter((item) => item.id !== id))
+    const hapusItem = (id) => setItems((lama) => lama.filter((item) => item.id !== id))
 
     return (
-        <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapus }}>
+        <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapusItem }}>
             {children}
         </KoleksiContext.Provider>
     )
