@@ -1,19 +1,21 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
+import StatusBadge from '../components/StatusBadge.jsx'
+import PesanStatus from '../components/PesanStatus.jsx'
 
 export default function Detail() {
     const { id } = useParams()
     const navigate = useNavigate()
-    const { items, loading, hapusItem } = useKoleksi()
+    const { items, loading, hapus, hapusItem } = useKoleksi()
     const item = items.find((i) => String(i.id) === String(id))
 
-    if (loading) return <p>Memuat data...</p>
+    if (loading) return <PesanStatus jenis="info" pesan="Memuat data koleksi.." />
 
     if (!item) {
         return (
             <section>
                 <h1>Item tidak ditemukan</h1>
-                <p>data tidak ditemukan</p>
+                <PesanStatus jenis="error" pesan="Data tidak ditemukan" />
                 <Link to="/koleksi">Kembali ke koleksi</Link>
             </section>
         )
@@ -31,7 +33,9 @@ export default function Detail() {
             <h1>{item.judul}</h1>
             <dl>
                 <dt>Kategori</dt>
-                <dd>{item.kategori}</dd>
+                <dd>
+                    <StatusBadge teks={item.kategori} />
+                </dd>
                 <dt>Teknologi</dt>
                 <dd>{item.teknologi}</dd>
                 <dt>Tahun</dt>

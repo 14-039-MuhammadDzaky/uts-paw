@@ -3,7 +3,7 @@ import { KoleksiContext } from './koleksiContext.js'
 import useLocalStorage from '../hooks/useLocalStorage.js'
 
 export function KoleksiProvider({ children }) {
-    const [items, setItems] = useLocalStorage('uts-paw:k7', null)
+    const [items, setItems] = useLocalStorage('koleksi_portofolio', null)
     const [loading, setLoading] = useState(items === null)
     const [error, setError] = useState(null)
 
