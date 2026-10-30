@@ -65,17 +65,20 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Muhammad Dzaky
+NIM: 12340039
+Kelas: RA
+Tema: Portofolio Proyek
+Deployment: https://14-039-muhammaddzaky.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
-- ...
+- 1. Navigasi Multi-halaman: perpindahan halaman beranda, koleksi dan tambah data dengan react router.
+- 2. Pencarian data: melakukan pencarian data berdasarkan judul
+- 3. filtering data: dapat melakuka filter berdasarkan kategori
+- 4. Pengujuian unit: pengujian komponen dan fitur dengan Vitset dan React tetsting library
 
 ## Menjalankan secara lokal
 
@@ -85,5 +88,9 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- 1. Custom hooks: sudah bawaan dari repository untuk mengisolasi dan membagikan logika yg daoat digunakan kembali antar komponen.
+- 2. React Router: untuk mengelola navigasi antar halaman tanpa memuat ulang seluruh halaman web.
+- 3. Context API: global state management data
+- 4. Components; memisakhka komponen antarmuka 
+- 5. State/ useState: Hook React yang digunakan untuk menyimpan dan mengelola data dinamis
 ```
