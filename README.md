@@ -66,7 +66,7 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 # Nama Aplikasi
 
 Nama: Muhammad Dzaky
-NIM: 12340039
+NIM: 123140039
 Kelas: RA
 Tema: Portofolio Proyek
 Deployment: https://14-039-muhammaddzaky.github.io/uts-paw/
