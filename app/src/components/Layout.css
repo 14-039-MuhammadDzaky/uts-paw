@@ -5,19 +5,42 @@
 }
 
 .kepala {
+    background-color: #0969da;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
 }
 
+#kepala-utama {
+    background-color: #0969da;
+    border-bottom: 2px solid #e1e4e8;
+}
+
 .menu {
+    background-color: #b6bac1;
+    border-radius: 5px;
     display: flex;
     gap: 1rem;
 }
 
 .menu a.active {
+    background-color: #0969da;
+    color: #0f172a;
     font-weight: 600;
+}
+
+.menu a:hover {
+    background-color: #0969da;
+    color: #1f2328;
+    outline: 2px solid #1f2328;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+.menu a:focus {
+    outline: 2px solid #0969da;
+    outline-offset: 2px;
 }
 
 .isi {
@@ -28,11 +51,36 @@
     padding: 1.5rem;
 }
 
+.isi section {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.isi h1 {
+    margin-top: 0;
+    color: #0f172a;
+    font-size: 1.75rem;
+}
+
+#isi-utama {
+    min-height: 70vh;
+    padding: 1.5rem 0;
+}
+
 .kaki {
+    text-align: center;
     padding: 1rem 1.5rem;
     border-top: 1px solid #dcdcdc;
-    color: #57606a;
+    color: #1f2328;
     font-size: 0.9rem;
+}
+
+#kaki-utama {
+    background-color: #0969da;
+    border-top: 1px solid #e1e4e8;
+    padding: 1rem 0;
 }
 
 .aksi {

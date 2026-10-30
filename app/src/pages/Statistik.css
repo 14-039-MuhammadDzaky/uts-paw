@@ -11,12 +11,13 @@
 .tabel-data th,
 .tabel-data td {
     padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #dcdcdc;
+    border: 3px solid #080808;
     text-align: left;
 }
 
 .tabel-data thead th {
     background: #f1f1f1;
+    color: #0f172a;
 }
 
 .tabel-data tbody tr:nth-child(even) {
